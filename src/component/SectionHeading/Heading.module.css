@@ -1,0 +1,24 @@
+.heading{
+    display: flex;
+    flex-direction: column;
+    gap: 1.6rem;
+    justify-content: center;
+    align-items: center;
+}
+.heading h2{
+    font-size: 3.2rem;
+    font-weight: 800;
+    text-align: center;
+}
+.heading p{
+    font-size: 2rem;
+    text-align: center;
+    width: 60%;
+    line-height: 1.5;
+}
+p.dark{
+    color: #D7D7D7;
+}
+h2.dark{
+    color: #fff;
+}

@@ -8,3 +8,8 @@ button{
     background: #6FC247;
     border-radius: 16px;
 }
+.auth{
+    background-color: #fff;
+    border: 1px solid var(--primary-color);
+    color: var(--primary-color);
+}

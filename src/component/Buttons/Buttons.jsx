@@ -1,6 +1,6 @@
 import React from "react";
-import "./Buttons.css";
+import styles from "./Buttons.module.css";
 
-export function Buttons({ text }) {
-  return <button className="">{text}</button>;
+export function Buttons({ text, auth }) {
+  return <button className={auth ? styles.auth : ''}> {text} </button>;
 }

@@ -1,0 +1,13 @@
+.partners{
+    padding: 12rem 0;
+}
+.partnersCtn{
+    border: 2px solid;
+    width: fit-content;
+    margin: 0 auto;
+    margin-top: 3.2rem;
+    display: grid;
+    grid-template-columns: repeat(4, 307px);
+    row-gap: 2.4rem;
+    column-gap: 1.8rem;
+}

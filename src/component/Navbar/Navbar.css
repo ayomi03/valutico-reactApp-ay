@@ -3,6 +3,8 @@ nav{
     justify-content:  space-between;
     align-items: center;
     padding: 3rem 10rem;
+    max-width: 2000px;
+    margin: 0 auto;
 }
 .logo{
     width: 17rem;
