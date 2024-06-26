@@ -1,6 +1,7 @@
 import React from "react";
 import styles from "./Hero.module.css";
 import { Buttons } from "../Buttons/Buttons";
+import HeroImg from '../../assets/heroImage.png'
 
 function Hero() {
   return (
@@ -18,7 +19,7 @@ function Hero() {
         </div>
       </div>
       <div className={styles.imgCtn}>
-        <img src="../../src/assets/heroImage.png" alt="" />
+        <img src={HeroImg} alt="" />
       </div>
     </div>
   );
