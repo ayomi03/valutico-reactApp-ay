@@ -5,6 +5,8 @@
     justify-content: center;
     align-items: center;
     padding: 7.2rem 10.3rem;
+    max-width: 2000px;
+    margin: 0 auto;
 }
 .why p{
     color: #d7d7d7;
@@ -29,4 +31,18 @@
     display: flex;
     gap: 6.05rem;
     margin-top: 6.4rem;
+}
+.features{
+    width: 47.7rem;
+    height: 22.5rem;
+    padding: 3.2rem;
+    display: flex;
+    flex-direction: column;
+    gap: .8rem;
+}
+.features h3{
+    font-size: 2.4rem;
+}
+.features p{
+    font-size: 2rem;
 }

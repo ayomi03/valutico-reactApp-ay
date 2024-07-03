@@ -1,7 +1,7 @@
 import React from "react";
 import Heading from "../SectionHeading/Heading";
 import styles from "./Why.module.css";
-import WhyBoxes from "./WhyBoxes";
+import Boxes from "./Boxes";
 
 function Why() {
   return (
@@ -13,17 +13,20 @@ function Why() {
       />
 
       <div className={styles.boxCtn}>
-        <WhyBoxes
+        <Boxes
             heading="Secure"
             para="Private by default, creating a safe space around your projects and your data."
+            why
         />
-        <WhyBoxes
+        <Boxes
             heading="Reliable"
             para="Created by valuation experts for valuation professionals."
+            why
         />
-        <WhyBoxes
+        <Boxes
             heading="Dedicated to your success"
             para="24/7 support and multi-language capabilities to support your  needs."
+            why
         />
       </div>
     </section>

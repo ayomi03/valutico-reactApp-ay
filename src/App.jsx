@@ -4,6 +4,7 @@ import MainSection from "./component/MainSection";
 import Hero from "./component/Hero/Hero";
 import Partners from "./component/Partners/Partners";
 import Why from "./component/WhySection/Why";
+import Features from "./component/Valutico features/Features";
 
 function App() {
   return (
@@ -14,6 +15,9 @@ function App() {
         <Partners />
       </MainSection>
       <Why />
+      <MainSection>
+        <Features />
+      </MainSection>
     </div>
   );
 }

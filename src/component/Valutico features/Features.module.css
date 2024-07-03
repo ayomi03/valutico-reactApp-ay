@@ -1,0 +1,24 @@
+.features{
+    padding: 6.9rem 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 8rem;
+}
+.ctn{
+    display: flex;
+    gap: 8.5rem;
+}
+.textCtn{
+    display: flex;
+    flex-direction: column;
+    gap: 2.4rem;
+}
+.imgCtn{
+    width: 73rem;
+    height: 69.3rem;
+}
+
+@media screen and (max-width: 750px) {
+    
+}
