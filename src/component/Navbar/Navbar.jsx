@@ -1,16 +1,34 @@
-import React from "react";
+import React, { useState } from "react";
 import { Buttons } from "../Buttons/Buttons";
 import Logo from "../../assets/logo.png";
 import "./Navbar.css";
 import { IoIosArrowDown } from "react-icons/io";
+import { IoMenu,IoClose } from "react-icons/io5";
 
 function Navbar() {
+  const [show, setShow] = useState(false)
+
+  function showMenu(){
+    setShow(!show)
+  }
+
   return (
     <nav>
       <div className="logo">
         <img src={Logo} alt="" />
       </div>
-      <div className="navItems">
+
+      <div className="iconsCtn">
+        {
+          show ? (
+            <IoClose className="icons" onClick={showMenu}/>
+          ):(
+            <IoMenu className="icons" onClick={showMenu}/>
+          )
+        }
+      </div>
+
+      <div className={show ? 'navItems mobile' : 'navItems'}>
         <ul>
           <li>
             <a href="">
@@ -33,9 +51,9 @@ function Navbar() {
             </a>
           </li>
         </ul>
-      </div>
-      <div className="btnCtn">
-        <Buttons text="Request a Demo" />
+        <div className="btnCtn">
+          <Buttons text="Request a Demo" />
+        </div>
       </div>
     </nav>
   );
