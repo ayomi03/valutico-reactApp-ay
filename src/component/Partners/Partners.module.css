@@ -10,3 +10,37 @@
     row-gap: 2.4rem;
     column-gap: 1.8rem;
 }
+@media screen and (max-width:850px) {
+    .partners{
+        padding: 2.4rem 0;
+        margin: 0 auto;
+    }
+    
+
+    .partnersCtn{
+        width: 90%;
+        margin: 0 auto;
+        margin-top: 3.2rem;
+        display: grid;
+        grid-template-columns: repeat(3, 216px);
+        row-gap: 1.2rem;
+        column-gap: 2.4rem;
+        align-items: center;
+        justify-content: center;
+    }
+
+}
+@media screen and (max-width:400px){
+    .partners{
+        /* padding: 2.4rem 0; */
+    }
+    .partnersCtn{
+        width: 90%;
+        margin: 0 auto;
+        margin-top: 3.2rem;
+        grid-template-columns: repeat(2, 160px);
+        row-gap: .8rem;
+        column-gap: 1.2rem;
+    }
+
+}

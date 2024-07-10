@@ -42,7 +42,7 @@ li a{
     height: 60vh;
     width: 100%;
     background-color: var(--primary-color);
-    gap: 2rem;
+    gap: 1.5rem;
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -61,5 +61,24 @@ li a{
   ul{
     flex-direction: column;
     align-items: center;
+  }
+}
+
+@media screen and (max-width:400px){
+  .logo{
+    width: 11.8rem;
+}
+  .icons{
+    font-size: 3.2rem;
+  }
+  .navItems{
+    top: 7.5rem;
+    gap: 1rem;
+    height: 58vh;
+  }
+  nav{
+    padding: 2rem;
+    max-width: 100%;
+    box-shadow: 0px 4px 4px  #0000000D;
   }
 }

@@ -22,3 +22,31 @@ p.dark{
 h2.dark{
     color: #fff;
 }
+
+@media screen and (max-width:850px) {
+    .heading h2{
+        font-size: 2.4rem;
+        font-weight: 700;
+        text-align: center;
+        width: 754px;
+    }
+    .heading p{
+        font-size: 2rem;
+        text-align: center;
+        width: 754px;
+        line-height: 1.5;
+        font-weight: 500;
+    }
+}
+@media screen and (max-width:400px){
+    .heading h2{
+        font-size: 2rem;
+        width: 329px;
+    }
+    .heading p{
+        font-size: 1.6rem;
+        text-align: center;
+        width: 329px;
+        line-height: 2;
+    }
+}
